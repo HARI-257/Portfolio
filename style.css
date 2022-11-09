@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid limegreen; */
+}
+.nav-link{
+  color: aqua;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.nav-link:hover{
+  width: 100%;
+  border-radius:10px ;
+  background-color: #ebf5fc;
+ box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  color: #DC3545;
+}
+#nav-btn{
+  margin-top: 8px;
+  height: 45px;
+  width: 90px;
+  color: #DC3545;
+  background-color:rgb(255, 251, 8);
+  transition: all 1s;
+}
+#nav-btn:hover{
+background-color: #ebf5fc;
+color: #DC3545; 
+}
+
+#name-text{
+  color: #ebf5fc;
+  transition: 0.5s;
+}
+#name-text:hover{
+  color: #FFC107;
+}
+#Myface{
+  margin: 80px;
+  height: 65%;
+  width: 70%;
+  object-fit:cover;
+  transition: all 0.5s; 
+}
+#Myface:hover{
+  border-radius:50%;
+}
+ #about{
+  font-size: 24px;
+color: #1E2362;
+line-height: 1.8;
+} 
+#img img{
+width:auto;
+height: 150px;
+object-fit: cover;
+}
+#img a{
+  text-decoration: none;
+  color: #DC3545;
+}
+#hello{
+  font-size: 40px;
+}
+#myself{
+  font-size: 40px;
+}
+#website a{
+  transition: all 0.5s;
+}
+#download:hover,
+#website:hover{
+  background-color: #DC3545;
+}
+#website:hover a{
+  color: #1E2362;
+}
+#sub-title{
+
+color: #DC3545;
+
+}
+#sub-head{
+  color: #1E2362;
+}
+.list-item{
+  font-size: 35px;
+  transition: all 0.5s;
+  list-style:circle;
+}
+.list-item:hover{
+  color: #DC3545;
+  list-style-type:none; ;
+}
+#follow{
+  margin-bottom: 50px;
+}
+#Card{
+  margin: auto;
+  padding: auto;
+  transition: all 0.5s;
+}
+#Card:hover{
+  transform: translateY(-45px);
+}
+#cont-title{
+  margin-top: 40px;
+}
+#Card .btn-primary:hover{
+  color: #DC3545;
+  background-color: #ebf5fc;
+}
+
+input,textarea{
+  outline: 2.5px solid #FFC107;
+}
+
+#send:hover{
+  color: #DC3545;
+  background-color: #ebf5fc;
+  letter-spacing: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:540px){
+  #Home-img{
+    height:250px;
+    width:250px;
+    margin-top:70px;
+  }
+  #About-1{
+    display: block;
+    width: 100%;
+
+  }
+  #About-1 p{
+    font-size: 16px;
+  }
+  #About-2 img{
+    /* display: block; */
+   }
+}
+
+
+
+
